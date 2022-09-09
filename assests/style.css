@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed-header {
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.fixed-header {
+    top: 0
+}
+
+#showcase{
+    background-image: url(../assests/images/freewayweb.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.search-bar {
+    width: 100%;
+    width: 700px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:5px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.placeholder {
+    color: #000;
+}
+
+.search-bar button {
+    width: 25px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #c4c1c1dd;
+    cursor: pointer;
+}
+
+#footer{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
